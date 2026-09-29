@@ -229,10 +229,10 @@ appropriate target for your hardware:
    ``MP4 (h.264 qsv)``                    QSV           Intel GPU with Quick Sync Video
    ``MP4 (h.264 videotoolbox)``           VideoToolbox  macOS with Apple or Intel GPU
    ``MP4 (h.264 dx)``                     DirectX       Windows with DirectX-compatible GPU
-   ``MP4 (HEVC va)``                      VA-API        Linux VA-API — produces smaller HEVC files
+   ``MP4 (HEVC va)``                      VA-API        Linux VA-API - produces smaller HEVC files
    =====================================  ============  =============================================
 
 MKV variants (``MKV (h.264 nv)``, ``MKV (h.264 va)``, etc.) are also available for each accelerator.
 If none of these targets appear or export fails, your system either lacks the required driver or the
-hardware encoder is not supported — fall back to the standard ``MP4 (h.264 + AAC)`` target, which uses
+hardware encoder is not supported - fall back to the standard ``MP4 (h.264 + AAC)`` target, which uses
 the CPU-based ``libx264`` encoder and works on all systems.
