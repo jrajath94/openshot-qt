@@ -758,7 +758,7 @@ apply it instantly, or switch to :guilabel:`View → Color View` for a dedicated
 
 .. seealso::
 
-   :doc:`color` — full workflow guide covering the Color Wheels dock, Curve Editor, video scopes,
+   :doc:`color` - full workflow guide covering the Color Wheels dock, Curve Editor, video scopes,
    color presets, skin tone matching, and step-by-step grading examples.
 
 Properties
@@ -820,7 +820,7 @@ that matches the vast majority of footage you’ll edit.
 
 If your camera or workflow uses a different gamma (for example a LOG profile), you can still use a LUT made for
 that curve. Simply use a `.cube` file designed for your gamma under the Color Map effect’s **LUT Path**.
-Just be sure your footage gamma matches the LUT gamma—or the colors may look incorrect.
+Just be sure your footage gamma matches the LUT gamma-or the colors may look incorrect.
 
 The following **Rec 709** LUT files are included in OpenShot, organized into the following categories:
 
