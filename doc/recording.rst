@@ -211,7 +211,7 @@ System Audio
 ^^^^^^^^^^^^
 
 :guilabel:`System Audio` is enabled by default on supported capture backends. It records sound playing through the
-computer—such as a game, browser, media player, or presentation—inside the screen recording. It does not replace the
+computer-such as a game, browser, media player, or presentation-inside the screen recording. It does not replace the
 Mic source. Enable both sources when you want system audio and commentary on independently editable clips.
 
 If the control is disabled, the active platform or libopenshot build does not provide system-audio capture. OpenShot
