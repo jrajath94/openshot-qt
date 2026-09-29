@@ -4,7 +4,6 @@ about: Suggest a new idea to improve OpenShot
 title:
 labels: '💡 enhancement'
 assignees: ''
-
 ---
 <!-- Please verify this idea has not already been suggested: https://github.com/OpenShot/openshot-qt/issues -->
 
