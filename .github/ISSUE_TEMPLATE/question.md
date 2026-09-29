@@ -4,7 +4,6 @@ about: Ask a question about OpenShot
 title:
 labels: question
 assignees: ''
-
 ---
 <!-- Please verify this question has not already been asked: https://github.com/OpenShot/openshot-qt/issues -->
 
