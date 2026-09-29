@@ -108,7 +108,7 @@ To choose a curve preset, right click on the small graph icon next to a key fram
 
 Ken Burns Effect
 ----------------
-The **Ken Burns effect** is a pan-and-zoom animation technique — named after documentary filmmaker Ken Burns —
+The **Ken Burns effect** is a pan-and-zoom animation technique - named after documentary filmmaker Ken Burns -
 that brings still images or video clips to life with slow, deliberate camera movement. In OpenShot, use
 :guilabel:`Right-Click → Motion → Camera` presets for one-click Ken Burns animations
 (Zoom In, Zoom Out, Pan, Zoom & Pan with Auto Direction), or set keyframes on :guilabel:`Location X/Y`
