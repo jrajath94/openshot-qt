@@ -333,8 +333,8 @@ for details. See :ref:`recording_ref` for the complete recording workflow and al
 My Views
 ^^^^^^^^
 **My Views** lets you save any dock arrangement as a named layout and recall it instantly. This is ideal for
-workflows that require switching between different editing modes — for example, a detailed audio mix layout and
-a focused color grading layout — without manually repositioning docks each time.
+workflows that require switching between different editing modes - for example, a detailed audio mix layout and
+a focused color grading layout - without manually repositioning docks each time.
 
 Each saved view captures the position, size, and visibility of every dock, as well as the timeline height.
 Saved views are stored in your project settings and persist across sessions.
