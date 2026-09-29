@@ -23,7 +23,7 @@ Color
 =====
 
 Have you ever noticed that thriller films look gritty and desaturated while romantic comedies feel
-vibrant and warm? That is not an accident — it is deliberate **color work**. Color is one of the most
+vibrant and warm? That is not an accident - it is deliberate **color work**. Color is one of the most
 powerful storytelling tools in video, and OpenShot gives you professional-grade tools to use it, whether
 you are fixing a problem shot or building a cinematic look from scratch.
 
@@ -34,7 +34,7 @@ you are fixing a problem shot or building a cinematic look from scratch.
 
 .. seealso::
 
-   :ref:`effects_color_grade` in :doc:`effects` — full property reference and keyframe details for the
+   :ref:`effects_color_grade` in :doc:`effects` - full property reference and keyframe details for the
    Color Grade effect.
 
 .. _color_basics_ref:
@@ -48,50 +48,50 @@ primaries creates secondary colors (Red + Green = Yellow, Red + Blue = Magenta, 
 
 Four properties you will adjust constantly:
 
-- **Exposure** — overall brightness. Overexposed footage has many pixels near 255 (blown-out
+- **Exposure** - overall brightness. Overexposed footage has many pixels near 255 (blown-out
   highlights); underexposed footage is crushed near 0.
-- **Contrast** — the spread between brightest and darkest. High contrast is dramatic; low contrast
+- **Contrast** - the spread between brightest and darkest. High contrast is dramatic; low contrast
   looks flat or milky.
-- **Saturation** — how vivid the colors are. Zero saturation = grayscale. Cameras often record
+- **Saturation** - how vivid the colors are. Zero saturation = grayscale. Cameras often record
   slightly less saturation than reality to give editors more room.
-- **Hue** — the actual color (red, yellow, green, blue…). Shifting hue rotates all colors around
+- **Hue** - the actual color (red, yellow, green, blue…). Shifting hue rotates all colors around
   the color wheel and is mostly used for creative stylistic effects.
 
-Video Scopes — What They Are and Why They Matter
+Video Scopes - What They Are and Why They Matter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Your monitor is not a reliable measuring tool — room lighting, screen brightness, and uncalibrated
+Your monitor is not a reliable measuring tool - room lighting, screen brightness, and uncalibrated
 displays all affect what you see. **Video scopes** display the actual pixel values in your image as
 precise graphs. They never lie, even if your monitor does.
 
 OpenShot includes three scopes, all accessible from :guilabel:`View → Scopes` or opened automatically
 by the clip menu options described in :ref:`getting_started_ref`:
 
-- **Luma Waveform** — shows brightness across the frame, column by column. Instantly reveals
+- **Luma Waveform** - shows brightness across the frame, column by column. Instantly reveals
   overexposure, underexposure, and contrast problems. See :ref:`luma_waveform_ref`.
-- **Histogram** — shows how many pixels exist at each brightness level. Great for exposure and
+- **Histogram** - shows how many pixels exist at each brightness level. Great for exposure and
   channel balance at a glance. See :ref:`histogram_ref`.
-- **Vectorscope** — a circular chroma plot showing the hue and saturation of every pixel. Ideal for
-  checking color casts, overall saturation, and — with its built-in skin tone line — evaluating faces.
+- **Vectorscope** - a circular chroma plot showing the hue and saturation of every pixel. Ideal for
+  checking color casts, overall saturation, and - with its built-in skin tone line - evaluating faces.
   See :ref:`vectorscope_ref`.
 
 Every scope also has a **Region** button in its toolbar. Click it and drag a box over any part of
-the video preview to restrict scope analysis to just that region — useful for isolating a face, sky,
+the video preview to restrict scope analysis to just that region - useful for isolating a face, sky,
 or any specific area of the frame.
 
-Color Correction — Fixing What Is Wrong
+Color Correction - Fixing What Is Wrong
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Color correction** is the process of fixing technical problems in footage so it looks the way
 reality appeared: wrong white balance, bad exposure, flat contrast, unwanted color casts. The goal
 is a clean, neutral image that looks natural and holds up on any screen. See :ref:`color_correction_ref`.
 
-Color Grading — Building a Look
+Color Grading - Building a Look
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Color grading** is the creative step: using the same tools to give corrected footage a deliberate
 visual mood or style. A warm golden nostalgia, a cold clinical thriller, a cinematic teal-and-orange
-— grading is where footage goes from "looks right" to "looks intentional." See :ref:`color_grading_ref`.
+- grading is where footage goes from "looks right" to "looks intentional." See :ref:`color_grading_ref`.
 
 .. _getting_started_ref:
 
@@ -103,11 +103,11 @@ OpenShot offers several ways to open its color tools, depending on what you need
 **Right-click a clip → Look → Adjust Colors**
    The quickest all-in-one setup. OpenShot adds the :guilabel:`Color Grade` effect to the clip,
    selects it, opens the :guilabel:`Properties` panel, and shows the :guilabel:`Color Wheels` dock
-   and all three video scopes — ready to grade immediately.
+   and all three video scopes - ready to grade immediately.
 
 **Right-click a clip → Look → Color → [preset]** *(Auto Contrast, Lift Shadows, Warm Up, Boost Color…)*
    Adds the Color Grade effect with a useful preset already applied. The Color Wheels and scopes
-   are not opened automatically — open them any time from :guilabel:`View → Scopes`.
+   are not opened automatically - open them any time from :guilabel:`View → Scopes`.
 
 **Right-click a clip → Look → Analyze Colors**
    Opens all three scopes (Luma Waveform, Histogram, and Vectorscope, tabbed together on the right)
@@ -194,9 +194,9 @@ shows how many pixels exist at each level as a bar chart. Red, green, blue, and 
 
 The Histogram dock has two dropdowns:
 
-- **Channel** — *All Channels* shows R, G, B, and luma overlaid; individual options isolate one. If
+- **Channel** - *All Channels* shows R, G, B, and luma overlaid; individual options isolate one. If
   the Red histogram extends further right than Green and Blue, the image is warm.
-- **Scale** — *Logarithmic* (default) keeps rare tonal values visible. *Linear* shows raw counts,
+- **Scale** - *Logarithmic* (default) keeps rare tonal values visible. *Linear* shows raw counts,
   useful for comparing the relative weight of different tones.
 
 .. _vectorscope_ref:
@@ -212,20 +212,20 @@ colorless (gray or black); one at the edge is fully saturated.
 
 *The Vectorscope in Colorized mode, with the skin tone cluster visible near the center.*
 
-The outer ring shows broadcast hue labels — **R** (red), **Mg** (magenta), **B** (blue), **Cy**
-(cyan), **G** (green), **Yi** (yellow) — at their positions around the color wheel. The **dashed
+The outer ring shows broadcast hue labels - **R** (red), **Mg** (magenta), **B** (blue), **Cy**
+(cyan), **G** (green), **Yi** (yellow) - at their positions around the color wheel. The **dashed
 spoke line** is the **skin tone line**: all human skin tones, from lightest to darkest, should fall
 roughly along this line in the yellow-orange zone between Yi and R.
 
 **Display modes:**
 
-- **Colorized** (default) — each plotted pixel adopts the hue color of its position on the wheel.
+- **Colorized** (default) - each plotted pixel adopts the hue color of its position on the wheel.
   Makes it easy to see which colors are present and how saturated they are.
-- **Density** — monochrome brightness. Brighter = more pixels sharing that hue/saturation. Good for
+- **Density** - monochrome brightness. Brighter = more pixels sharing that hue/saturation. Good for
   focusing on shape and balance rather than color identity.
-- **Intensity** — heatmap from blue (sparse) to red (dense). Quickly shows which colors dominate.
+- **Intensity** - heatmap from blue (sparse) to red (dense). Quickly shows which colors dominate.
 
-**Zoom:** 100%, 200%, or 400%. Use 200% for skin tone work — it magnifies subtle shifts near center.
+**Zoom:** 100%, 200%, or 400%. Use 200% for skin tone work - it magnifies subtle shifts near center.
 
 **How to read it:**
 
@@ -240,12 +240,12 @@ roughly along this line in the yellow-orange zone between Yi and R.
 Color Correction
 ----------------
 
-Color correction fixes technical problems — wrong white balance, bad exposure, flat contrast —
+Color correction fixes technical problems - wrong white balance, bad exposure, flat contrast -
 so footage looks clean and natural. It is always the first step, before any creative work.
 
 .. _white_balance_ref:
 
-White Balance — Making Whites Look White
+White Balance - Making Whites Look White
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Different light sources cast different colors: incandescent bulbs are orange-warm, fluorescent lights
@@ -254,12 +254,12 @@ looks color-cast. Fixing this is almost always your first move.
 
 Use **Temperature** and **Tint** in the :guilabel:`Color Grade` effect properties:
 
-- **Temperature** — shifts the image warmer (positive) or cooler (negative). Footage that looks too
+- **Temperature** - shifts the image warmer (positive) or cooler (negative). Footage that looks too
   orange? Slide it negative.
-- **Tint** — fine-tunes green/magenta balance. Use this after Temperature to remove a lingering
+- **Tint** - fine-tunes green/magenta balance. Use this after Temperature to remove a lingering
   fluorescent tinge. Positive = magenta, negative = green.
 
-A quick check: find something in the shot that should be neutral — a white wall, a gray shirt, the
+A quick check: find something in the shot that should be neutral - a white wall, a gray shirt, the
 whites of someone's eyes. The **RGB Parade** waveform mode makes this objective: all three channels
 should sit at the same height in those neutral areas.
 
@@ -269,9 +269,9 @@ Skin Tones
 ^^^^^^^^^^
 
 Human faces are the most scrutinized subjects in video. Viewers sense when skin looks wrong
-instantly, even if they cannot say why. Good skin tones are warm — they lean orange, not green or blue.
+instantly, even if they cannot say why. Good skin tones are warm - they lean orange, not green or blue.
 
-All human skin tones — regardless of race — fall roughly along the same diagonal line on a
+All human skin tones - regardless of race - fall roughly along the same diagonal line on a
 vectorscope: the **skin tone line**. They shift lighter or darker and more or less saturated, but
 they always land in the orange-to-yellow zone. OpenShot's Vectorscope lets you verify this directly:
 
@@ -285,7 +285,7 @@ they always land in the orange-to-yellow zone. OpenShot's Vectorscope lets you v
 *A face region selected in the video preview (left) with the vectorscope plotting only those pixels
 (right). The skin tone cluster aligns with the dashed skin tone line in the yellow-orange zone.*
 
-Avoid pushing Saturation too high — over-saturated skin looks unnatural even when the hue is correct.
+Avoid pushing Saturation too high - over-saturated skin looks unnatural even when the hue is correct.
 
 Primary Correction Controls
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -316,15 +316,15 @@ A Correction Workflow
 
 Work in this order for the best results:
 
-1. **Fix white balance first** — Temperature and Tint until neutrals look neutral.
-2. **Set exposure** — Exposure until brightness feels correct.
-3. **Adjust contrast** — expand or compress the tonal range to add depth.
-4. **Recover clipping** — Highlights and Shadows if bright areas are blown or shadows are crushed.
-5. **Adjust saturation** — Saturation or Vibrance to taste.
-6. **Check skin tones** — open the Vectorscope, use the Region selector on faces, and confirm the
+1. **Fix white balance first** - Temperature and Tint until neutrals look neutral.
+2. **Set exposure** - Exposure until brightness feels correct.
+3. **Adjust contrast** - expand or compress the tonal range to add depth.
+4. **Recover clipping** - Highlights and Shadows if bright areas are blown or shadows are crushed.
+5. **Adjust saturation** - Saturation or Vibrance to taste.
+6. **Check skin tones** - open the Vectorscope, use the Region selector on faces, and confirm the
    cluster aligns with the skin tone line.
 
-Use the scopes at each step — they show you what is actually in the image, regardless of monitor
+Use the scopes at each step - they show you what is actually in the image, regardless of monitor
 calibration.
 
 .. _color_grading_ref:
@@ -335,10 +335,10 @@ Color Grading
 Color grading is the creative step: using the same tools to build a deliberate visual mood on top
 of corrected footage. A few classic grades to inspire you:
 
-- **Warm, golden nostalgic** — push Highlights toward orange-yellow, nudge Midtones slightly warm.
-- **Cold, clinical** — cool the Shadows, desaturate slightly, keep Highlights neutral.
-- **Teal and orange** — the blockbuster look: Shadows toward teal, Highlights toward orange.
-- **Faded film** — lift the black point slightly (Curves) so shadows never reach full black.
+- **Warm, golden nostalgic** - push Highlights toward orange-yellow, nudge Midtones slightly warm.
+- **Cold, clinical** - cool the Shadows, desaturate slightly, keep Highlights neutral.
+- **Teal and orange** - the blockbuster look: Shadows toward teal, Highlights toward orange.
+- **Faded film** - lift the black point slightly (Curves) so shadows never reach full black.
 
 .. _color_wheels_ref:
 
@@ -360,7 +360,7 @@ professional colorists reach for most.
    ===================  ========================================================================
    Global               A color tint across the **entire image** at all brightness levels.
    Shadows              Color only in the **darkest parts**. Great for a cool teal tint.
-   Midtones             Color in the **middle tones** — where most skin tones live. Handle gently.
+   Midtones             Color in the **middle tones** - where most skin tones live. Handle gently.
    Highlights           Color only in the **brightest parts**. Warming highlights while keeping
                         shadows cool is the foundation of the teal-and-orange look.
    ===================  ========================================================================
@@ -379,7 +379,7 @@ professional colorists reach for most.
 
 .. _curves_ref:
 
-Curves — Precise Tonal and Color Control
+Curves - Precise Tonal and Color Control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A curve is a graph where the horizontal axis is the input value and the vertical axis is the output
@@ -392,34 +392,34 @@ between input and output for that tonal range.
 
 **Common curve shapes:**
 
-- **S-curve** — pull the upper-right quarter up, the lower-left quarter down. Adds contrast and pop
+- **S-curve** - pull the upper-right quarter up, the lower-left quarter down. Adds contrast and pop
   without shifting mid-gray. The most common starting move.
-- **Lifted blacks** — drag the bottom-left corner upward. Shadows never go fully to black — the
+- **Lifted blacks** - drag the bottom-left corner upward. Shadows never go fully to black - the
   faded-film look.
-- **Lower highlights** — add a point in the upper-right and pull it down. Recovers bright areas
+- **Lower highlights** - add a point in the upper-right and pull it down. Recovers bright areas
   without affecting the rest.
 
 **The four channels:**
 
-- **Curve: All** — overall brightness across all channels. Used most often.
-- **Curve: Red** — up adds red (warms), down adds cyan. Pull shadows down for a cool shadow tint.
-- **Curve: Green** — up adds green, down adds magenta.
-- **Curve: Blue** — up cools, down warms. Classic move: pull Blue Shadows up (cool teal shadows) and
+- **Curve: All** - overall brightness across all channels. Used most often.
+- **Curve: Red** - up adds red (warms), down adds cyan. Pull shadows down for a cool shadow tint.
+- **Curve: Green** - up adds green, down adds magenta.
+- **Curve: Blue** - up cools, down warms. Classic move: pull Blue Shadows up (cool teal shadows) and
   Blue Highlights down (warm orange highlights).
 
 Curves beat sliders because you can apply *different* adjustments to *different* tonal ranges in a
-single operation — for example, warming highlights while cooling shadows simultaneously.
+single operation - for example, warming highlights while cooling shadows simultaneously.
 
 .. _lut_ref:
 
-LUT Files — One-Click Color Looks
+LUT Files - One-Click Color Looks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A **LUT** (Lookup Table) is a pre-made color transformation: for every input color, output a specific
 different color. Professional colorists use LUTs to recreate film stocks, camera looks, or cinematic
 styles in one click. OpenShot supports industry-standard **.cube** files.
 
-OpenShot ships with a built-in LUT collection — see the :ref:`effects_ref` page for a visual gallery.
+OpenShot ships with a built-in LUT collection - see the :ref:`effects_ref` page for a visual gallery.
 Free **.cube** packs are widely available from photography communities online.
 
 **How to apply a LUT:**
@@ -431,7 +431,7 @@ Free **.cube** packs are widely available from photography communities online.
 
 **Tips:**
 
-- Correct first, then grade. LUTs assume properly balanced footage — applied to a color-cast image,
+- Correct first, then grade. LUTs assume properly balanced footage - applied to a color-cast image,
   they will look wrong.
 - Most included LUTs target Rec. 709 footage (HD cameras, smartphones). If your camera records in a
   LOG profile, apply the appropriate LOG conversion LUT first.
@@ -446,27 +446,27 @@ The **Mix** control (0.0–1.0) at the bottom of the Color Grade effect blends t
 the original image. At 1.0, the full grade applies. At 0.0, the original is shown.
 
 If your grade is correct but feels slightly heavy, dial Mix back to 0.7–0.9 to soften everything at
-once — no need to revisit every individual control.
+once - no need to revisit every individual control.
 
 Mix is keyframable: animate the grade fading in or out over time, for example opening a scene flat
 and letting it bloom into full color.
 
 .. _color_workflow_ref:
 
-Putting It All Together — A Complete Workflow
+Putting It All Together - A Complete Workflow
 ----------------------------------------------
 
 1. Select your clip. Right-click → :guilabel:`Color → Adjust Colors` to add the effect and open the
    Color Wheels and scopes in one step. Or use :guilabel:`Color → Analyze Colors` first if you want
    to evaluate the footage before committing to a grade.
-2. **Check the scopes before touching anything** — is the waveform too high or too low? A cast on
+2. **Check the scopes before touching anything** - is the waveform too high or too low? A cast on
    the RGB Parade? The histogram clipping against the right edge?
 3. Fix **Temperature** and **Tint** to neutralize white balance.
 4. Fix **Exposure**, then **Contrast**. Use **Highlights** and **Shadows** to recover clipping.
 5. Gently adjust **Saturation** or **Vibrance**.
 6. Open the **Vectorscope**, click Region, and draw a box over any faces. Confirm the skin tone
    cluster aligns with the dashed line. If not, adjust Temperature or the Global color wheel.
-7. Open the **Color Wheels** dock and build your creative grade — push Shadows one direction,
+7. Open the **Color Wheels** dock and build your creative grade - push Shadows one direction,
    Highlights the opposite, handle Midtones carefully.
 8. Fine-tune with **Curves**: a gentle S-curve on Curve: All; Curve: Blue for a cinematic push
    (cool shadows up, warm highlights down).
