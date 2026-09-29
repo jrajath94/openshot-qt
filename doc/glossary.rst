@@ -439,7 +439,7 @@ Sync (Synchronization):
 SECAM:
    Systeme Electronique Couleur Avec Memoire, a TV format used mainly in Eastern Europe, Russia, and Africa. 
 SV3D (Spherical Video metadata):
-   The “sv3d” atom in MP4/MOV files—side-data that marks a clip as 360° and carries projection, yaw/pitch/roll parameters.
+   The “sv3d” atom in MP4/MOV files-side-data that marks a clip as 360° and carries projection, yaw/pitch/roll parameters.
 
 .. _letter_T_ref:
 
