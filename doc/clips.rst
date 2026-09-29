@@ -135,10 +135,10 @@ Some presets allow the user to target either the start, end, or entire clip, and
 the user to reset a specific clip property. For example, when using the :guilabel:`Audio → Volume` presets,
 the user has the following menu options:
 
-- **Reset Volume** — resets the volume to the original level.
-- **Start of Clip** — the volume change applies at the beginning of the clip.
-- **End of Clip** — the volume change applies at the end of the clip.
-- **Entire Clip** — the volume change applies to the entire clip.
+- **Reset Volume** - resets the volume to the original level.
+- **Start of Clip** - the volume change applies at the beginning of the clip.
+- **End of Clip** - the volume change applies at the end of the clip.
+- **Entire Clip** - the volume change applies to the entire clip.
 
 .. image:: images/clip-presets.jpg
 
@@ -150,7 +150,7 @@ the user has the following menu options:
    ==================  ============
    Copy / Cut / Paste  Copy selected clip data, cut selected clips, or paste copied clip data. Copy supports full clips, effects, and keyframe groups.
    Align               Align the left or right edge of multiple selected clips and transitions (only shown when multiple clips are selected).
-   Fade                Fade the clip in or out — automatically fades video (alpha) and/or audio (volume) based on what the clip contains.
+   Fade                Fade the clip in or out - automatically fades video (alpha) and/or audio (volume) based on what the clip contains.
    Motion              Add animated motion to a clip: slide in/out, bounce, blur, wipe/focus-wipe, zoom, emphasis effects at the playhead, camera movements, and scrolling credits. Only shown for visual clips.
    Transform           Apply geometric presets to a clip: rotate/flip, crop, or snap to a corner layout. Also provides a **No Transform** reset. Only shown for visual clips.
    Look                Apply visual style presets: color grades, film grain, analog tape, sharpen, blur, shadow, and glow effects. Includes **Adjust Colors** (Color Wheels editor) and **Analyze Colors** (video scopes). Only shown for visual clips.
@@ -164,48 +164,48 @@ the user has the following menu options:
 Fade
 """"
 The :guilabel:`Fade` preset creates a smooth fade-in or fade-out on the selected clip. It automatically
-fades **video** (alpha/opacity) and/or **audio** (volume) depending on what the clip contains — a video clip
+fades **video** (alpha/opacity) and/or **audio** (volume) depending on what the clip contains - a video clip
 gets both, an audio-only clip gets only a volume fade, and an image clip gets only an alpha fade.
 
-- :guilabel:`No Fade` — removes all fade keyframes.
-- :guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades from transparent/silent at the start of the clip.
-- :guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades to transparent/silent at the end of the clip.
-- :guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies both a fade-in at the start and a fade-out at the end.
+- :guilabel:`No Fade` - removes all fade keyframes.
+- :guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` - fades from transparent/silent at the start of the clip.
+- :guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` - fades to transparent/silent at the end of the clip.
+- :guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` - applies both a fade-in at the start and a fade-out at the end.
 
 Fast fades span approximately 1 second; Slow fades span approximately 3 seconds.
 See :ref:`clip_alpha_ref` and :ref:`clip_volume_ref` key-frames.
 
 - **Usage Example:** Applying a fade-out to a video clip to gently conclude a scene.
-- **Tip:** Fade and Volume fade are independent — use :guilabel:`Fade` for a combined video+audio fade, or use :guilabel:`Audio → Volume` to fade only the audio.
+- **Tip:** Fade and Volume fade are independent - use :guilabel:`Fade` for a combined video+audio fade, or use :guilabel:`Audio → Volume` to fade only the audio.
 
 Motion
 """"""
 The :guilabel:`Motion` menu adds animated movement to visual clips using keyframe presets. It is organized into
 several submenus. See :ref:`clip_location_x_ref` and :ref:`clip_scale_x_ref` key-frames.
 
-- :guilabel:`No Motion` — removes all motion keyframes from the clip.
-- :guilabel:`In` — entrance animations applied at the start of the clip:
+- :guilabel:`No Motion` - removes all motion keyframes from the clip.
+- :guilabel:`In` - entrance animations applied at the start of the clip:
 
-  - **Back In** (From Bottom / Left / Right / Top) — clip overshoots and springs back into position.
-  - **Blur In** — clip fades in from a motion blur.
-  - **Bounce In** (Center / From Bottom / Left / Right / Top) — clip bounces as it enters.
-  - **Focus Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / Top) — clip is revealed by a wipe while sharpening from blur into focus.
-  - **Pop In** — clip scales up quickly from nothing.
-  - **Slide In** (From Bottom / Left / Right / Top) — clip slides onto the screen.
-  - **Spiral In** — clip rotates in while scaling up.
-  - **Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / Top) — clip is revealed by a wipe.
+  - **Back In** (From Bottom / Left / Right / Top) - clip overshoots and springs back into position.
+  - **Blur In** - clip fades in from a motion blur.
+  - **Bounce In** (Center / From Bottom / Left / Right / Top) - clip bounces as it enters.
+  - **Focus Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / Top) - clip is revealed by a wipe while sharpening from blur into focus.
+  - **Pop In** - clip scales up quickly from nothing.
+  - **Slide In** (From Bottom / Left / Right / Top) - clip slides onto the screen.
+  - **Spiral In** - clip rotates in while scaling up.
+  - **Wipe In** (Circle Expand / Circle Shrink / From Bottom / Left / Right / Top) - clip is revealed by a wipe.
 
-- :guilabel:`Out` — exit animations applied at the end of the clip (mirrors the In options: Back Out, Blur Out, Bounce Out, Focus Wipe Out, Pop Out, Slide Out, Spiral Out, Wipe Out).
+- :guilabel:`Out` - exit animations applied at the end of the clip (mirrors the In options: Back Out, Blur Out, Bounce Out, Focus Wipe Out, Pop Out, Slide Out, Spiral Out, Wipe Out).
 
-- :guilabel:`Emphasis` — short attention-grabbing animations **inserted at the current playhead position** (not applied across the whole clip). Useful for mid-clip highlights: **Bounce**, **Flash**, **Heartbeat**, **Jello**, **Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, **Wobble**.
+- :guilabel:`Emphasis` - short attention-grabbing animations **inserted at the current playhead position** (not applied across the whole clip). Useful for mid-clip highlights: **Bounce**, **Flash**, **Heartbeat**, **Jello**, **Pulse**, **Rubber Band**, **Shake X**, **Shake Y**, **Swing**, **Tada**, **Wobble**.
 
-- :guilabel:`Camera` — simulates camera movement on the clip by animating scale and position:
+- :guilabel:`Camera` - simulates camera movement on the clip by animating scale and position:
 
-  - **Zoom** → In / Out — a simple push-in or pull-out.
-  - **Pan** → Auto Direction / Left to Right / Right to Left / Top to Bottom / Bottom to Top — a lateral camera pan. *Auto Direction* picks the best direction based on the clip's aspect ratio.
-  - **Zoom & Pan** → In or Out, with directional variants — combines a zoom with a pan (Ken Burns style). *Auto Direction* picks the best direction based on the clip's aspect ratio.
+  - **Zoom** → In / Out - a simple push-in or pull-out.
+  - **Pan** → Auto Direction / Left to Right / Right to Left / Top to Bottom / Bottom to Top - a lateral camera pan. *Auto Direction* picks the best direction based on the clip's aspect ratio.
+  - **Zoom & Pan** → In or Out, with directional variants - combines a zoom with a pan (Ken Burns style). *Auto Direction* picks the best direction based on the clip's aspect ratio.
 
-- :guilabel:`Credits` — scrolling credit animations: **Scroll Up** and **Scroll Down**.
+- :guilabel:`Credits` - scrolling credit animations: **Scroll Up** and **Scroll Down**.
 
 - **Tip:** Emphasis presets are placed at the current playhead position, so position the playhead over the moment you want to highlight before applying one.
 - **Tip:** Camera presets use *Auto Direction* by default, which picks the optimal pan direction for wide or tall media to avoid black bars.
@@ -218,10 +218,10 @@ The :guilabel:`Transform → Rotate` submenu introduces easy rotation and flippi
 enables orientation adjustment by rotating and flipping a clip for creative visual transformations.
 See :ref:`clip_rotation_ref` key-frame.
 
-- :guilabel:`No Rotation` — removes any rotation keyframes.
-- :guilabel:`Rotate 90 (Right)` — rotates the clip 90 degrees clockwise.
-- :guilabel:`Rotate 90 (Left)` — rotates the clip 90 degrees counterclockwise.
-- :guilabel:`Rotate 180 (Flip)` — flips the clip upside down.
+- :guilabel:`No Rotation` - removes any rotation keyframes.
+- :guilabel:`Rotate 90 (Right)` - rotates the clip 90 degrees clockwise.
+- :guilabel:`Rotate 90 (Left)` - rotates the clip 90 degrees counterclockwise.
+- :guilabel:`Rotate 180 (Flip)` - flips the clip upside down.
 
 - **Usage Example:** Rotating a photo or video by 90 degrees (a portrait video to a landscape).
 - **Usage Example:** If your video is upside down, rotate it by 180 degrees to correct the orientation.
@@ -235,10 +235,10 @@ screen, useful for picture-in-picture or watermark effects.
 See :ref:`clip_location_x_ref`, :ref:`clip_scale_x_ref`, :guilabel:`Margin`, and :guilabel:`Corner Radius`
 key-frames.
 
-- :guilabel:`Reset Layout` — removes any layout keyframes.
-- :guilabel:`1/4 Size` — positions the clip at 1/4 of the screen in the Center, Top Left, Top Right, Bottom Left, or Bottom Right corner.
-- :guilabel:`Show All (Maintain Ratio)` — fits the entire clip frame within the screen while preserving its aspect ratio.
-- :guilabel:`Show All (Distort)` — stretches the entire clip frame to fill the screen, ignoring aspect ratio.
+- :guilabel:`Reset Layout` - removes any layout keyframes.
+- :guilabel:`1/4 Size` - positions the clip at 1/4 of the screen in the Center, Top Left, Top Right, Bottom Left, or Bottom Right corner.
+- :guilabel:`Show All (Maintain Ratio)` - fits the entire clip frame within the screen while preserving its aspect ratio.
+- :guilabel:`Show All (Distort)` - stretches the entire clip frame to fill the screen, ignoring aspect ratio.
 
 - **Usage Example:** Placing a logo in the corner of a video using the layout preset.
 - **Tip:** Use :guilabel:`Margin` to create an inset layout area for a clip, and :guilabel:`Corner Radius` to round
@@ -250,17 +250,17 @@ Speed
 The :guilabel:`Speed` menu manipulates clip playback speed, allowing for reverse playback, time-lapse,
 slow-motion, freezes, and looping effects. See :ref:`clip_time_ref` key-frame.
 
-- :guilabel:`Reset Speed` — restores the clip to normal 1× speed.
-- :guilabel:`Reverse` — plays the clip backwards at normal speed.
-- :guilabel:`Speed Up` → Forward / Backward → 2×, 4×, 8×, 16× — speeds up playback in either direction.
-- :guilabel:`Slow Down` → Forward / Backward → 1/2×, 1/4×, 1/8×, 1/16× — slows down playback in either direction.
-- :guilabel:`Repeat` — see below.
-- :guilabel:`Freeze` — freezes on the frame at the current playhead position for 2, 4, 6, 8, 10, 20, or 30 seconds.
-- :guilabel:`Freeze && Zoom` — freezes and simultaneously zooms in on that frozen frame.
+- :guilabel:`Reset Speed` - restores the clip to normal 1× speed.
+- :guilabel:`Reverse` - plays the clip backwards at normal speed.
+- :guilabel:`Speed Up` → Forward / Backward → 2×, 4×, 8×, 16× - speeds up playback in either direction.
+- :guilabel:`Slow Down` → Forward / Backward → 1/2×, 1/4×, 1/8×, 1/16× - slows down playback in either direction.
+- :guilabel:`Repeat` - see below.
+- :guilabel:`Freeze` - freezes on the frame at the current playhead position for 2, 4, 6, 8, 10, 20, or 30 seconds.
+- :guilabel:`Freeze && Zoom` - freezes and simultaneously zooms in on that frozen frame.
 
-- **Slow motion** — :guilabel:`Slow Down → 1/2×` or :guilabel:`1/4×` for dreamy or dramatic footage.
-- **Time-lapse** — :guilabel:`Speed Up → 8×` or :guilabel:`16×` to compress hours into seconds.
-- **Speed ramp** — use the :guilabel:`Timing` tool to drag clip edges and create a natural-feeling speed change; OpenShot scales all keyframes automatically.
+- **Slow motion** - :guilabel:`Slow Down → 1/2×` or :guilabel:`1/4×` for dreamy or dramatic footage.
+- **Time-lapse** - :guilabel:`Speed Up → 8×` or :guilabel:`16×` to compress hours into seconds.
+- **Speed ramp** - use the :guilabel:`Timing` tool to drag clip edges and create a natural-feeling speed change; OpenShot scales all keyframes automatically.
 - **Tip:** Combine :guilabel:`Freeze` with :guilabel:`Speed Up` for an impact-freeze-then-fast-forward effect.
 
 .. _clip_time_repeat_ref:
@@ -317,43 +317,43 @@ All keyframes on the clip and its effects are scaled so their relative positions
 Look
 """"
 The :guilabel:`Look` menu applies one-click visual style presets to clips. All presets work by adding or
-updating effects on the clip — you can inspect or animate them further in the Properties dock. The menu is
+updating effects on the clip - you can inspect or animate them further in the Properties dock. The menu is
 organized into four submenus plus two direct actions at the bottom.
 
-- :guilabel:`Reset Look` — removes all Look-managed effects (Color Grade, Film Grain, Analog Tape, Sharpen,
+- :guilabel:`Reset Look` - removes all Look-managed effects (Color Grade, Film Grain, Analog Tape, Sharpen,
   Blur, Shadow, Glow) from the selected clips in a single step.
 
-**Color** — applies a :guilabel:`Color Grade` effect with one of four quick presets:
+**Color** - applies a :guilabel:`Color Grade` effect with one of four quick presets:
 
-- **Auto Contrast** — boosts contrast by lifting shadows and pulling highlights.
-- **Lift Shadows** — brightens the dark areas of the image.
-- **Warm Up** — shifts the color balance toward warm orange/amber tones.
-- **Boost Color** — increases color saturation.
+- **Auto Contrast** - boosts contrast by lifting shadows and pulling highlights.
+- **Lift Shadows** - brightens the dark areas of the image.
+- **Warm Up** - shifts the color balance toward warm orange/amber tones.
+- **Boost Color** - increases color saturation.
 
-**Film** — cinematic film simulation:
+**Film** - cinematic film simulation:
 
 - :guilabel:`Film Grain` → **No Film Grain**, then: **35mm Fine**, **35mm Classic**, **35mm Gritty**,
-  **16mm Classic**, **Super 8**, **High ISO** — adds photographic grain at various strengths and sizes.
-- :guilabel:`Analog Tape` → **No Analog Tape**, then: **Subtle**, **VHS**, **Heavy** — adds tape
+  **16mm Classic**, **Super 8**, **High ISO** - adds photographic grain at various strengths and sizes.
+- :guilabel:`Analog Tape` → **No Analog Tape**, then: **Subtle**, **VHS**, **Heavy** - adds tape
   noise and color degradation for a retro video look.
 
-**Focus** — sharpness adjustments:
+**Focus** - sharpness adjustments:
 
-- :guilabel:`Sharpen` → **No Sharpen**, then: **Subtle**, **Medium**, **Strong** — sharpens fine detail.
-- :guilabel:`Blur` → **No Blur**, then: **Soft Focus**, **Medium**, **Heavy** — softens the image.
+- :guilabel:`Sharpen` → **No Sharpen**, then: **Subtle**, **Medium**, **Strong** - sharpens fine detail.
+- :guilabel:`Blur` → **No Blur**, then: **Soft Focus**, **Medium**, **Heavy** - softens the image.
 
-**Lighting** — light and shadow overlays:
+**Lighting** - light and shadow overlays:
 
-- :guilabel:`Shadow` → **No Shadow**, then: **Subtle**, **Soft**, **Strong**, **Long** — casts a drop
+- :guilabel:`Shadow` → **No Shadow**, then: **Subtle**, **Soft**, **Strong**, **Long** - casts a drop
   shadow across the clip.
-- :guilabel:`Glow` → **No Glow**, then: **Soft White**, **Warm**, **Neon**, **Inner Glow** — adds a
+- :guilabel:`Glow` → **No Glow**, then: **Soft White**, **Warm**, **Neon**, **Inner Glow** - adds a
   soft halo or glow effect.
 
 At the bottom of the Look menu:
 
-- :guilabel:`Adjust Colors` — opens the :guilabel:`Color Wheels` dock for full manual color grading with
+- :guilabel:`Adjust Colors` - opens the :guilabel:`Color Wheels` dock for full manual color grading with
   lift/gamma/gain wheels, curves, and an Amount/Luma blend slider.
-- :guilabel:`Analyze Colors` — opens the :guilabel:`Luma Waveform` and :guilabel:`Histogram` video scopes
+- :guilabel:`Analyze Colors` - opens the :guilabel:`Luma Waveform` and :guilabel:`Histogram` video scopes
   on the right side of the window, tabified together.
 
 - **Tip:** Each Look submenu has a "No …" option at the top to remove just that single effect without affecting
@@ -365,23 +365,23 @@ Audio
 """""
 The :guilabel:`Audio` menu groups all audio-related clip actions in one place.
 
-**Volume** — controls the clip's audio level. See :ref:`clip_volume_ref` key-frame.
+**Volume** - controls the clip's audio level. See :ref:`clip_volume_ref` key-frame.
 
-- :guilabel:`Reset Volume` — removes all volume keyframes, returning to full (1×) volume.
-- :guilabel:`Level` — sets a fixed volume percentage (0 % to 130 %) for the entire clip.
-- :guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume from silence at the start of the clip.
-- :guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` — fades volume to silence at the end of the clip.
-- :guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` — applies both a volume fade-in and fade-out.
+- :guilabel:`Reset Volume` - removes all volume keyframes, returning to full (1×) volume.
+- :guilabel:`Level` - sets a fixed volume percentage (0 % to 130 %) for the entire clip.
+- :guilabel:`Fade In` → :guilabel:`Fast` / :guilabel:`Slow` - fades volume from silence at the start of the clip.
+- :guilabel:`Fade Out` → :guilabel:`Fast` / :guilabel:`Slow` - fades volume to silence at the end of the clip.
+- :guilabel:`Fade In and Out` → :guilabel:`Fast` / :guilabel:`Slow` - applies both a volume fade-in and fade-out.
 
-**Separate** — splits the audio track out of a clip:
+**Separate** - splits the audio track out of a clip:
 
-- :guilabel:`Single Clip (all channels)` — creates one detached audio clip on a layer below the original.
-- :guilabel:`Multiple Clips (each channel)` — creates separate detached audio clips, one per audio channel, on multiple layers below the original.
+- :guilabel:`Single Clip (all channels)` - creates one detached audio clip on a layer below the original.
+- :guilabel:`Multiple Clips (each channel)` - creates separate detached audio clips, one per audio channel, on multiple layers below the original.
 
-**Show Waveform / Hide Waveform** — toggles the audio waveform visualization on the timeline for audio-only clips.
+**Show Waveform / Hide Waveform** - toggles the audio waveform visualization on the timeline for audio-only clips.
 Only shown for clips that do not have a video track.
 
-**Analyze Levels** — opens the :guilabel:`Audio Levels` scope dock. If other scope docks are already open,
+**Analyze Levels** - opens the :guilabel:`Audio Levels` scope dock. If other scope docks are already open,
 OpenShot tabifies :guilabel:`Audio Levels` with them.
 
 - **Usage Example:** Applying a gradual volume fade-out to transition between scenes.
@@ -417,10 +417,10 @@ Transform
 """""""""
 The :guilabel:`Transform` context menu provides geometric preset actions for visual clips:
 
-- :guilabel:`No Transform` — removes all Rotate, Layout, and crop presets from the selected clips in one step.
-- :guilabel:`Rotate` — rotate or flip the clip. See the :ref:`Rotate <clip_presets_rotate_ref>` section above.
-- :guilabel:`Crop` — add or remove a crop effect. See the :ref:`Crop <clip_presets_crop_ref>` section below.
-- :guilabel:`Layout` — resize and snap the clip to a corner or fit position. See the :ref:`Layout <clip_presets_layout_ref>` section above.
+- :guilabel:`No Transform` - removes all Rotate, Layout, and crop presets from the selected clips in one step.
+- :guilabel:`Rotate` - rotate or flip the clip. See the :ref:`Rotate <clip_presets_rotate_ref>` section above.
+- :guilabel:`Crop` - add or remove a crop effect. See the :ref:`Crop <clip_presets_crop_ref>` section below.
+- :guilabel:`Layout` - resize and snap the clip to a corner or fit position. See the :ref:`Layout <clip_presets_layout_ref>` section above.
 
 .. _clip_transform_tool_ref:
 
