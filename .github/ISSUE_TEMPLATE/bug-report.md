@@ -4,7 +4,6 @@ about: Create a bug report for a new issue
 title:
 labels: ':beetle: bug'
 assignees: ''
-
 ---
 <!-- Please verify this bug has not already been reported: https://github.com/OpenShot/openshot-qt/issues -->
 
